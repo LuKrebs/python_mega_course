@@ -1,0 +1,16 @@
+r Opens a file for reading only. The file pointer is placed at the beginning of the file.
+
+r+ Opens a file for both reading and writing. The file pointer placed at the beginning of the file
+
+w Opens a file for writing only. Overwrite the file if the file exists.
+if the file doesn't exists, creates a new file for reading and writing
+
+w+ Opens a file for both reading and writing. Overwrite the existing file if the file exists.
+if the file doesn't exists, creates a new file for reading and writing
+
+a Opens a file for appending. The file pointer is at the end of the file if the file exists.
+if the file doesn't exists, creates a new file for reading and writing.
+
+a+ Opens a file for both appending and reading. The file pointer is at the end of the file if the
+file exists.
+if the file doesn't exists, creates a new file for reading and writing.
