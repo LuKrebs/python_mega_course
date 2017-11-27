@@ -8,3 +8,4 @@ def calculate_length(string):
     return (len(string))
 
 print(calculate_length("Hello"))
+print(calculate_length("Hello"))
