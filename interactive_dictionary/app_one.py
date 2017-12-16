@@ -70,6 +70,5 @@ def translate(word):
         return print("The word doesn't exist. Please double check it.")
 
 
-
 word = input("Enter a word: ")
 translate(word)
